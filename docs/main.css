@@ -1,0 +1,200 @@
+html {
+	background-color:ghostwhite;
+}
+
+header.title {
+	width:100%;
+	height:90px;
+	position:fixed;
+	top:0px;
+	background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    z-index: 1;
+}
+
+footer {
+	width:100%;
+	height:100px;
+	position:fixed;
+	bottom:0px;
+	background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+
+.img0 {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+body {
+	font:100% Garamond;
+	margin:0 auto;
+	padding-bottom:10px;
+}
+
+#wrapper {
+	margin-top:10px;
+	margin-bottom:100px;
+	postion:relative;
+}
+
+article {
+	float: none;
+	margin-bottom:50px;
+}
+
+img.img1 {
+	width:100%;
+}
+
+aside.aside0 {
+	margin-top:100px;
+}
+
+aside.aside1 {
+	position:fixed;
+	left:0;
+	top:100px;
+}
+
+div.div1 {
+	position:fixed;
+	top:100px;
+	left:200px;
+	height:500px;
+	width:960px;
+	overflow:scroll;
+}
+
+aside.aside2 {
+	float:left;
+}
+
+div.div2 {
+	padding: 0 30px;
+	overflow:scroll;
+	margin-bottom:50px;
+}
+
+.float3 {
+	float:right;
+	margin:0em 1em 1em 1em;
+	width:15%;
+}
+
+.float2 {
+	float:left;
+	margin:10px 50px 10px 0px;
+	width:200px;
+}
+
+.clearfix {
+	overflow:auto;
+}
+
+aside.aside3 {
+	float:left;
+}
+
+div.div3 {
+	overflow:scroll;
+	margin-bottom:50px;
+	padding:1em 1em 1em 1em;
+}
+
+aside.aside4 {
+	display:inline-block;
+	vertical-align:top;
+	width:20%;
+	margin-top:90px;
+}
+
+div.div4 {
+	display:inline-block;
+	vertical-align:top;
+	width:79%;
+	margin-top:90px;
+}
+
+.float4 {
+	float:right;
+	width:25%;
+}
+
+aside.aside5 {
+	display:inline-block;
+	vertical-align:top;
+	width:20%;
+	margin-top:90px;
+}
+
+div.div5 {
+	display:inline-block;
+	vertical-align:top;
+	width:79%;
+	margin-top:90px;
+}
+
+img.img5 {
+	display:block;
+	width:50%;
+	box-shadow:8px 2px 8px 2px gray;
+	object-fit:none;
+	object-position:top right;
+}
+
+img.img6 {
+	display:block;
+	width:50%;
+	box-shadow:8px 2px 8px 2px gray;
+	object-fit:none;
+	object-position:bottom left;
+}
+
+.container {
+	position: relative;
+	width:100%;
+	z-index:0;
+}
+
+.container:hover .overlay {
+	opacity:1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:50%;
+  opacity: 0;
+  transition: .2s ease;
+  background:
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+background-color: #300;
+background-size: 100px 100px;
+box-shadow:8px 2px 8px 2px black;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
